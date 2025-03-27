@@ -46,7 +46,7 @@ driver.find_element(By.CSS_SELECTOR, "button:first-of-type").click()
 # Wait for submission process
 time.sleep(5)
 
-#success message (Success! New customer added.)
+#verify success message (Success! New customer added.)
 driver.find_element(By.ID, "Success")
 time.sleep(3)
 
