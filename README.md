@@ -5,6 +5,11 @@ Automated Customer Form Submission Using Selenium
 This project automates the process of logging into a CRM system, adding a new customer, and signing out using **Selenium WebDriver** in Python. It interacts with web elements such as input fields, buttons, and checkboxes on `automationplayground.com`.
 
 ## Prerequisites
+create a requirement.txt file
+move all installed packages to the requirement.txt file
+-from your terminal,type pip freeze
+all packages installed will be displayed on your terminal
+-type pip freeze > requirements.txt, click enter.
 Before running the script, ensure you have the following installed:
 
 - **Python 3.x**
